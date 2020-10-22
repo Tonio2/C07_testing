@@ -1,0 +1,17 @@
+./prgm04 ft_lenbase "0123456789abcdef"
+./prgm04 ft_lenbase "0123456789abcde2"
+./prgm04 ft_lenbase "0123456789ab-def"
+./prgm04 ft_lenbase "0123456789ab+def"
+./prgm04 ft_lenbase ""
+./prgm04 ft_indexof c abc
+./prgm04 ft_indexof d abc
+./prgm04 ft_atoi_base "ff" "0123456789abcdef" 16
+./prgm04 ft_atoi_base "+ff" "0123456789abcdef" 16
+./prgm04 ft_atoi_base "-+-+-ff" "0123456789abcdef" 16
+./prgm04 ft_atoi_base "    -+-+-ff" "0123456789abcdef" 16
+./prgm04 ft_createstr_base 255 "0123456789abcdef" 16
+./prgm04 ft_createstr_base 0 "0123456789abcdef" 16
+./prgm04 ft_createstr_base -255 "0123456789abcdef" 16
+./prgm04 ft_convert_base "ff" "0123456789abcdef" "0123456789"
+./prgm04 ft_convert_base "ff" "0123456789abcdef" "012345+789"
+./prgm04 ft_convert_base "0" "0123456789abcdef" "0123456789"

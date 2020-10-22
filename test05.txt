@@ -1,0 +1,20 @@
+./prgm05 ft_isin c abc
+./prgm05 ft_isin d abc
+./prgm05 ft_isin d ""
+./prgm05 ft_isin "" "abc"
+./prgm05 ft_wc mot /
+./prgm05 ft_wc mot/mot/mot /
+./prgm05 ft_wc mot/ /
+./prgm05 ft_wc /mot /
+./prgm05 ft_wc //mot// /
+./prgm05 ft_wc //mot//mot /
+./prgm05 ft_wc "" /
+./prgm05 ft_wc "" ""
+./prgm05 ft_parse_word "//mot//" "/" 2
+./prgm05 ft_parse_word "//mot" "/" 2
+./prgm05 ft_parse_word "//mot" "" 2
+./prgm05 ft_parse_word "//mot//" "" 2
+./prgm05 ft_split "/abc?def/?" "/?"
+./prgm05 ft_split "abc?def" "/?"
+./prgm05 ft_split "abc?def    " "/?"
+./prgm05 ft_split "abc?def    " ""
